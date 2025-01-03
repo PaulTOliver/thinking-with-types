@@ -1,0 +1,25 @@
+cabal-version: 3.4
+author:        Paul Oliver
+build-type:    Simple
+maintainer:    contact@pauloliver.dev
+name:          thinking
+version:       0.1.0.0
+
+library
+  build-depends:
+    , aeson
+    , aeson-pretty
+    , base
+    , constraints
+    , do-notation
+    , first-class-families
+    , indexed
+    , mtl
+    , singletons
+    , singletons-base
+    , text
+    , vector
+
+  exposed-modules:
+  ghc-options:      -Wall -Wunused-packages
+  default-language: GHC2021
